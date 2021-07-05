@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Pseudo</title>
+    <style>
+        h1::before{
+            content: "hi";
+            color: blue;
+            background-color: rgb(241, 46, 11);
+            border: darkgreen;
+            border-radius: 25px;
+            margin: 15px;
+            padding: 25px;
+            width: fit-content;
+    
+        }
+        li::after{
+            content:  "hello";
+        }
+        .cha:hover{
+            color: darkorange;
+            background: darkturquoise;
+        }
+        input :focus{
+            color: deepskyblue;
+            font-weight: 700;
+            font-size: 25px;
+            }
+            p:nth-child(2n+1){
+                color: dodgerblue;
+                background-color: forestgreen;
+                font-size: 50px;
+                
+
+            }
+            a:visited{
+                color: goldenrod;
+        
+            }
+            body {
+  counter-reset: section;                       /* Set a counter named 'section', and its initial value is 0. */
+}
+    p::before{
+        content: "❤️";
+    }
+
+    </style>
+</head>
+<body>
+    <H1>pSEUDO CLASS</H1>
+    <H1>Normal Class</H1>
+    <h1 class="cha">Vodro Class</h1>
+    <input name="email" type="text"> <br>
+    <input name="password" type="password">
+    
+        <p>dalia</p>
+        <p>alia</p>
+        <p>malia</p>
+        <p>nalia</p>
+        <p>salia</p>
+        <p>valia</p>
+        <p>ralia</p>
+ 
+   <a href="w3schools.com/css/css_pseudo_classes.asp">visit w3schools</a> <br>
+   <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes">visit for more</a>
+</body>
+</html>
